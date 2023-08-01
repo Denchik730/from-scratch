@@ -89,6 +89,35 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .intro {
   padding: 30px 20px 37px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__title {
+  color: #CCC;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.intro__date {
+  color: #CCC;
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #F5F5F5;
+  line-height: 1.35;
 }
 
 .reasons {
