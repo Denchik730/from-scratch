@@ -121,7 +121,38 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 }
 
 .reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  color: #131313;
+  font-family: 'EB Garamond';
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.content-section__intro {
+  color: #131313;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  color: #131313;
+  line-height: 1.35;
+  padding: 0 0 0 15px;
+}
+
+.content-section__accent {
+  font-weight: 700;
 }
 
 .how-to {
